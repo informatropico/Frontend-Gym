@@ -4,11 +4,13 @@ import { StrictMode } from 'react';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import userReducer from './features/user';
+import themeReducer from './features/theme';
 
 // STORE --> Global state
 const store = configureStore({
     reducer: {
         user: userReducer,
+        theme: themeReducer
     },
 })
 

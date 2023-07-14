@@ -1,10 +1,6 @@
 import ReactDOM from 'react-dom/client';
-
-function App() {
-    return (
-        <h1>Rick and Morty API test</h1>
-    );
-}
+import App from './App.jsx';
+import './index.css';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
